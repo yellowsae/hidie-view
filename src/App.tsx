@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue'
-import Content from './Content'
+import PageContnet from './Content'
 const App = defineComponent({
   name: 'App',
   setup() { },
@@ -7,7 +7,7 @@ const App = defineComponent({
   render() {
     return (
       <div >
-        <Content />
+        <PageContnet />
       </div>
     )
   },

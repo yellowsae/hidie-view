@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue'
 
-const Content = defineComponent({
+const PageContnet = defineComponent({
   name: 'PageContent',
   setup() {
     return {
@@ -15,4 +15,4 @@ const Content = defineComponent({
   },
 })
 
-export default Content
+export default PageContnet
